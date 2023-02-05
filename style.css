@@ -1,0 +1,23 @@
+
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color:red;
+}
+
+canvas {
+    animation-name: mete;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mete {
+
+  from {box-shadow: 1px 1px 38px rgb(81, 7, 7)}
+  to {box-shadow: 1px 1px 45px  rgb(82, 5, 82);}
+    
+}
